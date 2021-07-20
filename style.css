@@ -1,0 +1,233 @@
+
+
+        *{
+            margin: 0 ;
+            padding: 0 ;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        header{
+            width: 1034px;
+            margin: auto;
+            height: 90px;
+            background-color: black;
+            position: relative;
+            z-index: 1;
+            border:  1px red solid;
+        }
+        .logo{
+            margin-top: 13px;
+            margin-left: 10px;
+
+        }
+    
+         #gnb   {
+            list-style: none;
+            margin-left: 27.5px;
+            position: absolute;
+            left: 143.5px;
+            bottom: 33px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        #gnb  > ul  > li{
+            text-align: center;
+            width: 100px;
+            float: left;
+          
+            border: orangered 1px solid;
+        }
+        #gnb  .depth2{
+            display: none;
+            font-size: 10px;
+            margin-top: 50px;
+        }
+        div > #gnb  > ul  > li:hover > .depth2{
+            display: block;
+   
+        }
+        div > #gnb  > ul  > li > .depth2 > li{
+            padding: 5px;
+        }
+        #right-btn{
+           display: flex;
+           position: absolute;
+           right: 35px;
+           bottom: 25px;
+        }
+        #right-btn form{
+            margin-right: 20px;
+        }
+        #right-btn  input{
+            background: none;
+            border: none;
+            margin-right: 5px;
+            margin-top: 10px;
+
+        }
+        #right-btn input.text{
+           border-bottom:  1.2px white solid;
+           color: white;
+           
+        }
+        #right-btn input#submit{
+            background: url(./images/Icon\ feather-search.png);
+            background-size: cover;
+            height: 26px;
+            margin-top: 15px;
+            color: rgb(255, 255, 255, 0.01);
+        }
+        #right-btn  .shop{
+            width: 28px;
+            margin-top: 16px;
+        }
+        .mainVisual {
+            overflow: hidden;
+            width: 1034px;
+            margin: auto;
+            outline:  red 1px solid;
+            position: relative;
+        }
+   
+        .gallery {
+            width: calc(1034px * 2);
+            height: 400px;
+            position: relative;
+            left: 0px;  
+        }
+        .gallery > p {
+            position: absolute;
+            color: white;
+            font-size: 28px;
+            left: 1210px;
+            top: 100px;
+            line-height: 45px;
+            text-align: center;
+        }
+        .gallery   .btn1{
+            margin-left: 155px;
+            margin-top: 190px;
+            font-size:  24px;
+            background: #1DA4FE;
+            width: 170px;
+            border-radius: 100px;
+            transition:  0.6s;
+        }
+        .gallery  .btn2{
+            margin-left: 365px;
+            margin-top: 190px;
+            font-size:  24px;
+            background: #1DA4FE;
+            width: 170px;
+            border-radius: 100px;
+            transition:  0.6s;
+        }
+        .gallery  .btn3{
+            background: #C726A6;
+            width: 230px;
+            height: 50px;
+            border-radius: 100px;
+            position: absolute;
+            left: 125px;
+            top: 270px;
+            transform: 0.6s;
+        }
+        .gallery  .btn3:hover{
+            background: black;
+        }
+
+        .gallery  .btn1:hover{
+            background-color: black;
+        }
+        .gallery  .btn2:hover{
+            background-color:black;
+        }
+        
+   
+        .mainVisual > .gallery  > img{
+            float: left;
+            
+        }
+        .content{
+            width: 1034px;
+            height: 237px;
+            display: flex;
+            margin: auto;
+            text-align: center;
+        }
+        .content > div{
+            flex: 1;
+            margin-top: 45px;
+        }
+        .content > div > p{
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .content > div > p > a {
+            color: white;
+            font-size: 14px;
+        }
+        .content > div > p:hover > a {
+            font-weight: bold;
+        }
+
+        .contact{
+            background: #252525;
+            height: 140px;
+            width: 100%;
+            border-bottom: 1px solid gray;
+            border-top: 1px solid gray;
+           
+        }
+
+        .contact > .container{
+            width: 1034px;
+            margin: auto;
+            color: white;
+            font-size: 15px;
+            position: relative;
+          
+        }
+        .contact > .container > p{
+            margin-left: 70px;
+            margin-top: 24px;
+            font-size: 23px;
+            font-weight: bold;
+        } 
+
+        .contact > .container > #contact {
+           display: flex;
+           position: absolute;
+           right: 60px;
+           bottom: -80px;
+           padding: 25px;
+        }
+        .contact > .container > #contact > .icon{
+            position: relative;
+            bottom: 22px;
+            margin-right: 20px;
+        }
+        .contact > .container > #contact > p{
+            margin-right: 20px;
+            line-height: 26px;
+            font-size: 13px;
+        }
+
+        footer{
+            width: 1034px;
+            margin: auto;
+            color: #8b8b8b;
+            font-size: 10px;
+            line-height: 20px;
+        }
+        footer > p{
+            margin-left: 30px;
+            margin-top: 10px;
+        }
